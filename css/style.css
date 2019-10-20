@@ -1,0 +1,302 @@
+/*---1.HOME-INFO-----*/
+
+
+
+.mybody {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #f7f7f7;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-top: 0;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+.info-left {
+    display: flex;
+    flex: 1;
+    width: 90%;
+
+}
+
+.info_center {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 70%;
+    position: relative;
+}
+
+.info-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+
+.home_info_bg {
+
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.myImage {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.profile-pic {}
+
+.name_title {
+    margin-bottom: 37px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+
+
+.name_title h1 span {
+
+    font-weight: 700;
+    color: rgb(18, 78, 78);
+    font-family: montserrat, sans-serif;
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .name_title {}
+
+    .info-left {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width:414px) {
+    .name_title h1 {
+        font-size: 30px;
+    }
+
+}
+
+
+
+.info_title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.info_title::after {
+    content: "";
+    background: #f75799;
+    height: 2px;
+    width: 45px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.contact_info {
+    margin-top: 175px;
+}
+
+.basic-info {}
+
+.basic-info table tr th {
+    color: #333;
+    font-family: montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+
+/*---2.TIMELINE DISIGN-----*/
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 0.5rem;
+
+
+}
+
+.timeline-bg {
+    background: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.card {
+    background: #fff;
+    padding-bottom: 20px;
+    padding: 2rem;
+
+}
+
+.single_timeline {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.08);
+    border-left: 2px solid green;
+    margin-bottom: 30px;
+}
+
+.single_timeline span {
+    margin-bottom: 5px;
+}
+
+.timeline_title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.container-contact {
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.contact-bg {
+    background: #fff;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+h1.section-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h1.section-title::after {
+    content: "";
+    background: #f75799;
+    height: 3px;
+    width: 65px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.contact {}
+
+@media only screen and (max-width:768px) {
+    .contact {
+        margin-bottom: 60px
+    }
+}
+
+.contact input {
+    background: none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 100%;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.contact input:hover,
+.contact input:focus {
+    border-bottom: 1px solid orangered;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.contact textarea:hover,
+.contact textarea:focus {
+    border-bottom: 1px solid orangered;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.form-control {
+    display: block;
+    padding: 6px 12px;
+
+}
+
+.text-center {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-contact-bg {
+    padding: 10px;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #333;
+    display: iinline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    outline: medium none;
+    padding: 11px 30px;
+
+    text-transform: capitalize;
+    transition: all 0.2s ease 0s;
+    border: 2px solid #333;
+}
+
+.btn-contact-bg:hover,
+.btn-contact-bg:focus {
+    background: orangered;
+    ;
+    border: 2px solid orangered;
+    ;
+    color: #fff;
+}
+
+/*---3.Footer-----*/
+
+.footer {
+    margin-bottom: 50px;
+
+}
+
+.footer p {
+    text-align: center;
+}
