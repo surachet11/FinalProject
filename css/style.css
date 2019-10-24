@@ -203,6 +203,13 @@ h1.section-title {
     font-size: 30px;
 }
 
+h1.section-comment {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+}
+
 h1.section-title::after {
     content: "";
     background: #f75799;
@@ -269,7 +276,7 @@ h1.section-title::after {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
     color: #333;
-    display: iinline-block;
+    display: inline-block;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.5px;
